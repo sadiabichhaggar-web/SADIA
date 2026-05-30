@@ -1,0 +1,162 @@
+body{
+    background-image: url(fond.png);
+    
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+header img{
+    background-color: white;
+    width: 30%;
+    height: 15%;
+    display: block;
+}
+header p{
+    color: red;
+}
+div #banniere img{
+    width: 85%;
+    height: 15%;
+}
+
+
+
+nav{
+    background: white;
+    padding: 25px;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+nav a{
+    color: red;
+    margin: 50px;
+    text-decoration: none;
+
+}
+nav li{
+    display: inline-block;
+    margin-left:15px ;
+}
+header,nav{
+    display: block;
+}
+
+#index article{
+    display: flex;
+    /*justify-content: space-between;
+    align-items: center;
+    background-size: cover;*/
+    margin-top: auto;
+    margin: 10px;
+    
+    width: 60%;
+}
+aside{
+    background-color: rgb(193, 193, 193);
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 5px;
+    vertical-align: top;
+
+}
+
+#presentation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    margin: 10px;
+    background-size: cover;
+
+}
+#image{
+    height: 110px;
+    width: 110px;
+    float: left;
+    
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+}
+#index,#image{
+    margin: 20px;
+
+}
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 250px;
+   background-color: palevioletred;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 22px;
+}
+th{
+    font-weight: bold;
+    text-align: left;
+}
+
+footer{
+  
+    margin-top: 10px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+footer p{
+    color: blue;
+
+}
+
+footer li{
+    color: blue;
+}
+
+
+#index #index-art,#index-asd{
+
+    display: flex;
+    display: inline-block;
+
+}
+#index article{
+    width: 70%;
+}
+#index #index-asd{
+    width: 22%;
+}
+#enas{
+    width: 280px;
+    height: 100px;
+}
+#presentation #article2{
+    width: 70%;
+
+}
+
+ #presentation #asside2{
+    width: 25%;
+ }
+ #asside2 img{
+    margin: 7px;
+
+ }
